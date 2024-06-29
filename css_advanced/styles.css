@@ -350,22 +350,26 @@ h2{
   height: 190px;
 }
 
+/* FOOTER SECTION */
+
 .footer-details {
   background-color: #071629; 
   text-align: center;
   color: white; 
   padding: 20px 0; 
+  height: 249px;
 }
 
 .logo-icons{
  display: flex;
  justify-content: space-around;
- margin-top: 1em;
+ margin-top: 4em;
 }
 
 .copyright p {
   font-size: 12px;
   font-weight: 100;
+  margin-top: 6em;
 }
 
 .footer-details .icons i {
