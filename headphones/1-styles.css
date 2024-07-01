@@ -55,6 +55,11 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a:hover, nav ul li a:active {
+  color: #FF6565;
+  
+}
+
 .hero-text {
   max-width: 637px;
   max-height: 313px;
@@ -99,27 +104,27 @@ nav ul li a {
 
 /* SERVICES */
 
-.what-we-do{
+#what-we-do{
   text-align: center;
   padding: 50px 20px;
   background: #fff;
   height: 80vh;
 }
 
-.what-we-do .text{
+#what-we-do .text{
   max-width: 637px;
   max-height: 184px;
   margin: 30px auto;
 }
 
-.what-we-do .text p{
+#what-we-do .text p{
   font-weight: 400;
   font-size: 16px;
   margin-top: 2em;
   margin-bottom: 6em;
 }
 
-.what-we-do .text h2{
+#what-we-do .text h2{
   font-size: 32px;
   width: 207px;
   margin: 1em auto;
@@ -154,7 +159,7 @@ nav ul li a {
 
 /* RESULTS */
 
-.results{
+#results{
   background: url('/images/headphones_hero_2.jpg') no-repeat center center/cover;
   color: #fff;
   height: 80vh;
@@ -163,11 +168,11 @@ nav ul li a {
   padding: 120px 20px;
 }
 
-.results h2{
+#results h2{
   font-weight: 500;
 }
 
-.results .sub-txt{
+#results .sub-txt{
   font-weight: 400;
   font-size: 14px;
   width: 637px;
@@ -220,24 +225,24 @@ nav ul li a {
 
 /* CONTACT */
 
-.contact-us{
+#contact-us{
   background-color: #f2f2f2;
   height: 80vh;
 }
 
-.contact-us h2{
+#contact-us h2{
   text-align: center;
   padding-top: 3em;
   padding-bottom: 1.5em;
   font-size: 32px;
 }
 
-.contact-us form {
+#contact-us form {
   max-width: 335px;
   margin: 0 auto;
 }
 
-.contact-us input, .contact-us textarea {
+#contact-us input, #contact-us textarea {
   width: 335px;
   margin-bottom: 40px;
   background-color: #f2f2f2;
@@ -247,7 +252,7 @@ nav ul li a {
   
 }
 
-.contact-us textarea::placeholder, .contact-us input::placeholder{
+#contact-us textarea::placeholder, #contact-us input::placeholder{
   font-size: 14px;
   font-weight: 600;
   color: #071629;
