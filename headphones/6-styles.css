@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* COLORS */
+
+:root{
+  --black: #071629;
+  --white: #ffff;
+  --light-red: #FF6565;
+}
+
+/* ---------------------------------------- GENERAL CODES --------------------------------------------- */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Source Sans 3', sans-serif;
+}
+
+body {
+  background: var(--white);
+  max-width: 100vw;
+}
+
+
+/* ---------------------------------------- RESULTS CODES --------------------------------------------- */
+
+#results {
+  background: url('/images/headphones_hero_2.jpg') no-repeat center center/cover;
+  color: var(--white);
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  padding: 120px 20px;
+}
+
+#results h2 {
+  font-weight: 500;
+}
+
+#results .sub-txt {
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 637px;
+  text-align: center;
+  margin: 2.5em auto;
+}
+
+.stat {
+  position: relative;
+  margin-top: 2em;
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat span {
+  font-size: 46px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.stat p {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 14px;
+  font-weight: 400;
+  width: 111px;
+}
+
+.pyramid {
+  width: 190px;
+  height: 190px;
+  background-color: var(--light-red);
+  clip-path: polygon(44% 0, 90% 41%, 78.5% 92.5%, 13.2% 92.5%, 2.3% 38.2%); /* Defines pentagon shape */
+}
